@@ -1,9 +1,9 @@
-#Flipkart Premier League - Auction
+# Flipkart Premier League - Auction
 
 Cricket fever is on and Flipkart is ready with their own league. FPL it is!!. To conduct the FPL, it needs to go through a fair auction process and we need your help on this. You need to build a platform for auction to take place with following requirements:
 A player can register to participate in the auction with their base price. A new team can register to participate in the auction and build their squad with a fixed wallet amount. Once the auction starts for a player, teams can bid for them. Once the auction closes for that player, the highest bidder will get the player.
 
-##Implement following commands:
+## Implement following commands:
 
 **registerPlayer <player-name> <base-price>** : this command will register the player and will be available for auction
 
@@ -21,7 +21,7 @@ A player can register to participate in the auction with their base price. A new
 
 **bidHistory <team|player> <team-name|player-name>** : displays all the bids placed for particular player or by the team
 
-##Bonus:
+## Bonus:
 Implement RTM(Right to match) card. If a team uses the RTM card for a sold player, the player will be finally sold to the team for the same amount for which player was earlier sold.
 
 Conditions for RTM:
